@@ -18,7 +18,7 @@ def grade(average):
         
     #grade(50.19) should be graded as C
         
-# validating the marks before grading
+# validating the marks before grading (0-100)
 if(chemistry >= 0 and chemistry <=100):
     if(maths >= 0 and maths <=100):
         if(physics >= 0 and physics <=100):
