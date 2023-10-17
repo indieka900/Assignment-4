@@ -26,10 +26,10 @@ if(chemistry >= 0 and chemistry <=100):
                 average = (chemistry+maths+physics+geography)/4
                 grade(average)
             else:
-                print(f"Invalid geography marks {geography}")
+                print(f"unrecognized/Invalid geography marks {geography}")
         else:
-            print(f"Invalid physics marks {physics}")
+            print(f"unrecognized/Invalid physics marks {physics}")
     else:
-        print(f"Invalid maths marks {maths}")
+        print(f"unrecognized/Invalid maths marks {maths}")
 else:
-    print(f"Invalid chemistry marks {chemistry}")
+    print(f"unrecognized/Invalid chemistry marks {chemistry}")
